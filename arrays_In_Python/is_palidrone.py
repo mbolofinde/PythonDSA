@@ -10,7 +10,7 @@ def is_palidrome(s):
     new_data = revrsed(s)
 
     if original_data == new_data:
-        return True
+        return True 
     
     return False
 
