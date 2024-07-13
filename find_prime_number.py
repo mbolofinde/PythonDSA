@@ -6,9 +6,7 @@ for number in range(2, 20):
     for divisor in range(2, number):
         # set the condition for division 
         if number % divisor == 0:
-            print(number, 'Equals', divisor, '* ', number//divisor)
+            print(number, 'Equals', divisor, '*', number//divisor)
             break
     else:
         print(number, "is a primer number")
-
-
